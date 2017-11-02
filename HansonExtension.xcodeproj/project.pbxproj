@@ -16,6 +16,7 @@
 		C0D375A91FAAC52B00DABFD1 /* HansonExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */; };
 		C0D375B11FAAC58000DABFD1 /* Hanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AF1FAAC58000DABFD1 /* Hanson.swift */; };
+		C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		C0D375A81FAAC52B00DABFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C0D375AF1FAAC58000DABFD1 /* Hanson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hanson.swift; sourceTree = "<group>"; };
+		C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				C0D375AF1FAAC58000DABFD1 /* Hanson.swift */,
 				C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */,
+				C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */,
 				C0D375B11FAAC58000DABFD1 /* Hanson.swift in Sources */,
 				C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */,
 			);
