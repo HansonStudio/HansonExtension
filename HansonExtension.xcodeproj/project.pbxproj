@@ -12,6 +12,7 @@
 		C043456F1FAA37EA003BF285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C043456D1FAA37EA003BF285 /* Main.storyboard */; };
 		C04345711FAA37EA003BF285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04345701FAA37EA003BF285 /* Assets.xcassets */; };
 		C04345741FAA37EA003BF285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04345721FAA37EA003BF285 /* LaunchScreen.storyboard */; };
+		C0495ED61FAACF880038D624 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0495ED51FAACF880038D624 /* README.md */; };
 		C0D375A91FAAC52B00DABFD1 /* HansonExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */; };
 		C0D375B11FAAC58000DABFD1 /* Hanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AF1FAAC58000DABFD1 /* Hanson.swift */; };
@@ -38,6 +39,7 @@
 		C04345701FAA37EA003BF285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04345731FAA37EA003BF285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04345751FAA37EA003BF285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0495ED51FAACF880038D624 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C0D375A51FAAC52B00DABFD1 /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HansonExtensionKit.h; sourceTree = "<group>"; };
 		C0D375A81FAAC52B00DABFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		C04345451FAA377B003BF285 = {
 			isa = PBXGroup;
 			children = (
+				C0495ED51FAACF880038D624 /* README.md */,
 				C04345681FAA37EA003BF285 /* HansonExtension-Demo */,
 				C0D375A61FAAC52B00DABFD1 /* HansonExtensionKit */,
 				C043454F1FAA377B003BF285 /* Products */,
@@ -210,6 +213,7 @@
 			files = (
 				C04345741FAA37EA003BF285 /* LaunchScreen.storyboard in Resources */,
 				C04345711FAA37EA003BF285 /* Assets.xcassets in Resources */,
+				C0495ED61FAACF880038D624 /* README.md in Resources */,
 				C043456F1FAA37EA003BF285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
