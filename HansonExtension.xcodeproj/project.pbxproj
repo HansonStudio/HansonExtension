@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */; };
 		C043456A1FAA37EA003BF285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04345691FAA37EA003BF285 /* AppDelegate.swift */; };
 		C043456C1FAA37EA003BF285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043456B1FAA37EA003BF285 /* ViewController.swift */; };
 		C043456F1FAA37EA003BF285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C043456D1FAA37EA003BF285 /* Main.storyboard */; };
@@ -19,6 +20,16 @@
 		C0D375B11FAAC58000DABFD1 /* Hanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AF1FAAC58000DABFD1 /* Hanson.swift */; };
 		C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01D94EE1FB371F800EAEDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C04345461FAA377B003BF285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D375A41FAAC52B00DABFD1;
+			remoteInfo = HansonExtensionKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C043458A1FAA3861003BF285 /* Embed Frameworks */ = {
@@ -34,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		C04345671FAA37EA003BF285 /* HansonExtension-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HansonExtension-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04345691FAA37EA003BF285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C043456B1FAA37EA003BF285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +130,7 @@
 				C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */,
 				C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */,
 				C08C894E1FAD874C00F2715C /* Date+Extension.swift */,
+				C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -148,6 +161,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C01D94EF1FB371F800EAEDED /* PBXTargetDependency */,
 			);
 			name = "HansonExtension-Demo";
 			productName = "HansonExtension-Demo";
@@ -250,11 +264,20 @@
 				C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */,
 				C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */,
 				C0D375B11FAAC58000DABFD1 /* Hanson.swift in Sources */,
+				C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */,
 				C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01D94EF1FB371F800EAEDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D375A41FAAC52B00DABFD1 /* HansonExtensionKit */;
+			targetProxy = C01D94EE1FB371F800EAEDED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C043456D1FAA37EA003BF285 /* Main.storyboard */ = {
