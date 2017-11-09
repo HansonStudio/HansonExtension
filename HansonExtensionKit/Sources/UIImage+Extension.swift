@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UIImage: HansonCompatible { }
+extension UIImage: HansonExtensionProtocol { }
 extension HansonExtensionKit where T: UIImage {
     
     public static func renderImageWithColor(_ color: UIColor, size: CGSize) -> UIImage {

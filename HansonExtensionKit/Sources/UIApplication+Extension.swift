@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension UIApplication: HansonCompatible { }
+extension UIApplication: HansonExtensionProtocol { }
 extension HansonExtensionKit where T == UIApplication {
     
     /// 获取当前正在展示的`ViewController`

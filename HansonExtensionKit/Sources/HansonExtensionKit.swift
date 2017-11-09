@@ -8,18 +8,18 @@
 
 import Foundation
 
-public protocol HansonCompatible {
+public protocol HansonExtensionProtocol {
     associatedtype CompatibleType
-    var hs: CompatibleType { get }
-    static var hs: CompatibleType.Type { get }
+    var hsExt: CompatibleType { get }
+    static var hsExt: CompatibleType.Type { get }
 }
 
-public extension HansonCompatible {
-    var hs: HansonExtensionKit<Self> {
+public extension HansonExtensionProtocol {
+    var hsExt: HansonExtensionKit<Self> {
         return HansonExtensionKit(value: self)
     }
     
-    static var hs: HansonExtensionKit<Self>.Type {
+    static var hsExt: HansonExtensionKit<Self>.Type {
         return HansonExtensionKit.self
     }
 }

@@ -15,9 +15,10 @@
 		C04345741FAA37EA003BF285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04345721FAA37EA003BF285 /* LaunchScreen.storyboard */; };
 		C0495ED61FAACF880038D624 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0495ED51FAACF880038D624 /* README.md */; };
 		C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C894E1FAD874C00F2715C /* Date+Extension.swift */; };
+		C0B7BD921FB4BA47004FBA51 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */; };
 		C0D375A91FAAC52B00DABFD1 /* HansonExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */; };
-		C0D375B11FAAC58000DABFD1 /* Hanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AF1FAAC58000DABFD1 /* Hanson.swift */; };
+		C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AF1FAAC58000DABFD1 /* HansonExtensionKit.swift */; };
 		C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,11 +56,12 @@
 		C04345751FAA37EA003BF285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0495ED51FAACF880038D624 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C08C894E1FAD874C00F2715C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C0D375A51FAAC52B00DABFD1 /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HansonExtensionKit.h; sourceTree = "<group>"; };
 		C0D375A81FAAC52B00DABFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		C0D375AF1FAAC58000DABFD1 /* Hanson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hanson.swift; sourceTree = "<group>"; };
+		C0D375AF1FAAC58000DABFD1 /* HansonExtensionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HansonExtensionKit.swift; sourceTree = "<group>"; };
 		C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,11 +128,12 @@
 		C0D375AD1FAAC56200DABFD1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C0D375AF1FAAC58000DABFD1 /* Hanson.swift */,
+				C0D375AF1FAAC58000DABFD1 /* HansonExtensionKit.swift */,
 				C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */,
 				C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */,
 				C08C894E1FAD874C00F2715C /* Date+Extension.swift */,
 				C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */,
+				C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -261,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B7BD921FB4BA47004FBA51 /* UIView+Extension.swift in Sources */,
 				C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */,
 				C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */,
-				C0D375B11FAAC58000DABFD1 /* Hanson.swift in Sources */,
+				C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */,
 				C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */,
 				C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */,
 			);

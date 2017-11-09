@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date: HansonCompatible { }
+extension Date: HansonExtensionProtocol { }
 extension HansonExtensionKit where T == Date {
     
     

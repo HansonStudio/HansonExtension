@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UIColor: HansonCompatible { }
+extension UIColor: HansonExtensionProtocol { }
 extension HansonExtensionKit where T: UIColor {
     
     public static func color(rgba: String) -> UIColor {
