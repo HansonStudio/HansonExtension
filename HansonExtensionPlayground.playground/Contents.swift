@@ -8,6 +8,6 @@ let color = UIColor.hsExt.color(rgba: "#1782d0")
 
 let time = Date.hsExt.getTimeAgoString("20171103133522")
 
-let view = UIView()
-view.backgroundColor = UIColor.blue
-view.hsExt.maskCorner(byRoundingCorners: .allCorners, radii: 10)
+let view = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+view.backgroundColor = UIColor.cyan
+view.hsExt.maskCorner(byRoundingCorners: [.bottomLeft, .topLeft], radii: 10)

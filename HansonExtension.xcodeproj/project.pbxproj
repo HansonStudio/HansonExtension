@@ -15,7 +15,9 @@
 		C04345741FAA37EA003BF285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04345721FAA37EA003BF285 /* LaunchScreen.storyboard */; };
 		C0495ED61FAACF880038D624 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0495ED51FAACF880038D624 /* README.md */; };
 		C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C894E1FAD874C00F2715C /* Date+Extension.swift */; };
+		C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */; };
 		C0B7BD921FB4BA47004FBA51 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */; };
+		C0B7BD941FB4C234004FBA51 /* HansonExtensionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D375A51FAAC52B00DABFD1 /* HansonExtensionKit.framework */; };
 		C0D375A91FAAC52B00DABFD1 /* HansonExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */; };
 		C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AF1FAAC58000DABFD1 /* HansonExtensionKit.swift */; };
@@ -56,6 +58,7 @@
 		C04345751FAA37EA003BF285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0495ED51FAACF880038D624 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C08C894E1FAD874C00F2715C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C0D375A51FAAC52B00DABFD1 /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HansonExtensionKit.h; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B7BD941FB4C234004FBA51 /* HansonExtensionKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +94,7 @@
 				C04345681FAA37EA003BF285 /* HansonExtension-Demo */,
 				C0D375A61FAAC52B00DABFD1 /* HansonExtensionKit */,
 				C043454F1FAA377B003BF285 /* Products */,
+				C0B7BD931FB4C234004FBA51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +120,13 @@
 			path = "HansonExtension-Demo";
 			sourceTree = "<group>";
 		};
+		C0B7BD931FB4C234004FBA51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0D375A61FAAC52B00DABFD1 /* HansonExtensionKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +146,7 @@
 				C08C894E1FAD874C00F2715C /* Date+Extension.swift */,
 				C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */,
 				C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */,
+				C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -270,6 +283,7 @@
 				C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */,
 				C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */,
 				C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */,
+				C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
