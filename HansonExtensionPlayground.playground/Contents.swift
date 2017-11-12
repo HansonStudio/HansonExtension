@@ -4,7 +4,7 @@ import UIKit
 import HansonExtensionKit
 
 let color = UIColor.hsExt.color(rgba: "#1782d0")
-
+let color2 = UIColor.hsExt.color(netHex: 0xff6262, alpha: 0.5)
 
 let time = Date.hsExt.getTimeAgoString("20171103133522")
 

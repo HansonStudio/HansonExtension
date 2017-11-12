@@ -52,4 +52,21 @@ extension HansonExtensionKit where T: UIColor {
         }
         return UIColor(red:red, green:green, blue:blue, alpha:alpha)
     }
+    
+    public static func color(red: Int, green: Int, blue: Int, al: CGFloat) -> UIColor {
+        assert(red >= 0 && red <= 255, "Invalid red component")
+        assert(green >= 0 && green <= 255, "Invalid green component")
+        assert(blue >= 0 && blue <= 255, "Invalid blue component")
+        
+        return UIColor(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: al)
+    }
+    
+    
+    /// - Parameters:
+    ///   - netHex: 16进制
+    ///   - alpha: 透明度
+    public static func color(netHex: Int, alpha: CGFloat) -> UIColor {
+        return self.color(red:(netHex >> 16) & 0xff, green:(netHex >> 8) & 0xff, blue:netHex & 0xff, al: alpha)
+    }
+
 }
