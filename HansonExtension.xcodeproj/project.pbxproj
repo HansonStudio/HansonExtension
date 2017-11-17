@@ -18,6 +18,7 @@
 		C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */; };
 		C0B7BD921FB4BA47004FBA51 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */; };
 		C0B7BD941FB4C234004FBA51 /* HansonExtensionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D375A51FAAC52B00DABFD1 /* HansonExtensionKit.framework */; };
+		C0CA1ED21FBE715B005109F9 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CA1ED11FBE715B005109F9 /* UITextField+Extension.swift */; };
 		C0D375A91FAAC52B00DABFD1 /* HansonExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */; };
 		C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D375AF1FAAC58000DABFD1 /* HansonExtensionKit.swift */; };
@@ -60,6 +61,7 @@
 		C08C894E1FAD874C00F2715C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C0CA1ED11FBE715B005109F9 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		C0D375A51FAAC52B00DABFD1 /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D375A71FAAC52B00DABFD1 /* HansonExtensionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HansonExtensionKit.h; sourceTree = "<group>"; };
 		C0D375A81FAAC52B00DABFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */,
 				C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */,
 				C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */,
+				C0CA1ED11FBE715B005109F9 /* UITextField+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */,
 				C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */,
 				C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */,
+				C0CA1ED21FBE715B005109F9 /* UITextField+Extension.swift in Sources */,
 				C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */,
 				C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */,
 			);
