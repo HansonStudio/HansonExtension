@@ -11,9 +11,6 @@ import Foundation
 extension Date: HansonExtensionProtocol { }
 extension HansonExtensionKit where T == Date {
     
-    
-    /// 
-    ///
     /// - Parameter dateString: yyyyMMddHHmmss
     /// - Returns:
     public static func getTimeAgoString(_ dateString: String) -> String {
@@ -66,5 +63,29 @@ extension HansonExtensionKit where T == Date {
             resultTime = Int(round(time))
             return "\(resultTime)年前"
         }
+    }
+    
+    func addYear(_ year:Int) -> Date{
+        return Calendar.current.date(byAdding: Calendar.Component.year, value: year, to: Date())!
+    }
+    
+    func addMonth(_ mon:Int) -> Date{
+        return Calendar.current.date(byAdding: Calendar.Component.month, value: mon, to: wrappedValue)!
+    }
+    
+    func addDay(_ day:Int) -> Date{
+        return Calendar.current.date(byAdding: Calendar.Component.day, value: day, to: wrappedValue)!
+    }
+    
+    func addHour(_ hour:Int) -> Date{
+        return Calendar.current.date(byAdding: Calendar.Component.hour, value: hour, to: wrappedValue)!
+    }
+    
+    func addMin(_ min:Int) -> Date{
+        return Calendar.current.date(byAdding: Calendar.Component.minute, value: min, to: wrappedValue)!
+    }
+    
+    func addSecond(_ second:Int) -> Date{
+        return Calendar.current.date(byAdding: Calendar.Component.second, value: second, to: wrappedValue)!
     }
 }
