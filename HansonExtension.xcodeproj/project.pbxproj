@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C018B9F81FC26AE20053AE28 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018B9F71FC26AE20053AE28 /* Double+Extension.swift */; };
 		C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */; };
 		C043456A1FAA37EA003BF285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04345691FAA37EA003BF285 /* AppDelegate.swift */; };
 		C043456C1FAA37EA003BF285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043456B1FAA37EA003BF285 /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C018B9F71FC26AE20053AE28 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		C04345671FAA37EA003BF285 /* HansonExtension-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HansonExtension-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04345691FAA37EA003BF285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */,
 				C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */,
 				C0CA1ED11FBE715B005109F9 /* UITextField+Extension.swift */,
+				C018B9F71FC26AE20053AE28 /* Double+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				C0B7BD921FB4BA47004FBA51 /* UIView+Extension.swift in Sources */,
 				C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */,
+				C018B9F81FC26AE20053AE28 /* Double+Extension.swift in Sources */,
 				C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */,
 				C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */,
 				C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */,
