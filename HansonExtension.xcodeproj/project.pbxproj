@@ -15,6 +15,7 @@
 		C04345711FAA37EA003BF285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04345701FAA37EA003BF285 /* Assets.xcassets */; };
 		C04345741FAA37EA003BF285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04345721FAA37EA003BF285 /* LaunchScreen.storyboard */; };
 		C0495ED61FAACF880038D624 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0495ED51FAACF880038D624 /* README.md */; };
+		C074B08E1FC5E795000CD5D2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074B08D1FC5E795000CD5D2 /* UITableView+Extension.swift */; };
 		C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C894E1FAD874C00F2715C /* Date+Extension.swift */; };
 		C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */; };
 		C0B7BD921FB4BA47004FBA51 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */; };
@@ -60,6 +61,7 @@
 		C04345731FAA37EA003BF285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04345751FAA37EA003BF285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0495ED51FAACF880038D624 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C074B08D1FC5E795000CD5D2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		C08C894E1FAD874C00F2715C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */,
 				C0CA1ED11FBE715B005109F9 /* UITextField+Extension.swift */,
 				C018B9F71FC26AE20053AE28 /* Double+Extension.swift */,
+				C074B08D1FC5E795000CD5D2 /* UITableView+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				C0D375B11FAAC58000DABFD1 /* HansonExtensionKit.swift in Sources */,
 				C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */,
 				C0CA1ED21FBE715B005109F9 /* UITextField+Extension.swift in Sources */,
+				C074B08E1FC5E795000CD5D2 /* UITableView+Extension.swift in Sources */,
 				C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */,
 				C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */,
 			);
