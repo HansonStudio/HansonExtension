@@ -15,3 +15,5 @@ view.hsExt.maskCorner(byRoundingCorners: [.bottomLeft, .topLeft], radii: 10)
 let d = 10000000.0
 d.hsExt.toNumberFormat(maxDecimal: 2)
 
+let alert = UIAlertAction(title: "ceshi", style: UIAlertActionStyle.default, handler: nil)
+alert.addAction(.cancel)
