@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00DD93B1FFD473D007587BB /* Identifer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00DD93A1FFD473D007587BB /* Identifer+Extension.swift */; };
 		C018B9F81FC26AE20053AE28 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C018B9F71FC26AE20053AE28 /* Double+Extension.swift */; };
 		C01D94ED1FB3711200EAEDED /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */; };
 		C043456A1FAA37EA003BF285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04345691FAA37EA003BF285 /* AppDelegate.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C00DD93A1FFD473D007587BB /* Identifer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Identifer+Extension.swift"; sourceTree = "<group>"; };
 		C018B9F71FC26AE20053AE28 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		C04345671FAA37EA003BF285 /* HansonExtension-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HansonExtension-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D375AF1FAAC58000DABFD1 /* HansonExtensionKit.swift */,
+				C00DD93A1FFD473D007587BB /* Identifer+Extension.swift */,
 				C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */,
 				C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */,
 				C08C894E1FAD874C00F2715C /* Date+Extension.swift */,
@@ -313,6 +316,7 @@
 				C074B08E1FC5E795000CD5D2 /* UITableView+Extension.swift in Sources */,
 				C04C7D511FCCFADC007A81DC /* UIAlertAction+Extension.swift in Sources */,
 				C0D375B01FAAC58000DABFD1 /* UIColor+Extension.swift in Sources */,
+				C00DD93B1FFD473D007587BB /* Identifer+Extension.swift in Sources */,
 				C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
