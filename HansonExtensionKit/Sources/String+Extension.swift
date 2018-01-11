@@ -96,4 +96,25 @@ extension HansonExtensionKit where T == String {
             return true
         }
     }
+    
+    func regReplace(pattern: String, with: String,
+                    options: NSRegularExpression.Options = []) -> String {
+        let regex = try! NSRegularExpression(pattern: pattern, options: options)
+        return regex.stringByReplacingMatches(in: wrappedValue, options: [],
+                                              range: NSMakeRange(0, wrappedValue.count),
+                                              withTemplate: with)
+    }
+    
+    func getSubStringBetween(left: String, right: String) -> String {
+        let startIndex = wrappedValue.range(of: left)?.upperBound ?? wrappedValue.startIndex
+        let endIndex = wrappedValue.range(of: right)?.lowerBound ?? wrappedValue.endIndex
+        
+        return String(wrappedValue[startIndex..<endIndex])
+    }
+    
+    func getSubStringLowerUpto(_ text: String)  -> String {
+        let index = wrappedValue.range(of: text)?.lowerBound ?? wrappedValue.endIndex
+        
+        return String(wrappedValue[..<index])
+    }
 }
