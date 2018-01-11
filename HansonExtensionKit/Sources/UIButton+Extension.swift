@@ -10,7 +10,7 @@ import Foundation
 //extension UIButton: HansonExtensionProtocol {}
 extension HansonExtensionKit where T == UIButton {
     
-    func set(image anImage: UIImage?, title: String,
+    public func set(image anImage: UIImage?, title: String,
                    titlePosition: UIViewContentMode, additionalSpacing: CGFloat, state: UIControlState){
         wrappedValue.imageView?.contentMode = .center
         wrappedValue.setImage(anImage, for: state)
