@@ -9,8 +9,9 @@ Pod::Spec.new do |s|
   s.author              = { "Hanson" => "hansenhs21@live.com" }
   s.platform            = :ios, "9.0"
   s.source              = { :git => "https://github.com/HansonStudio/HansonExtension.git", :tag => "#{s.version}" }
-  s.source_files        = "HansonExtensionKit", "HansonExtensionKit/**/*"
-  s.exclude_files       = "Classes/Exclude"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+  # s.source_files        = "HansonExtensionKit", "HansonExtensionKit/**/*"
+  s.source_files        = '**/*.{h,swift}'
+  s.swift_version       = '4.0'
+  s.preserve_paths      = 'CommonCrypto/module.map'
 
 end
