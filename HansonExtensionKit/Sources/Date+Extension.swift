@@ -15,8 +15,8 @@ extension HansonExtensionKit where T == Date {
     /// - Returns:
     public static func getTimeAgoString(_ dateString: String) -> String {
         
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyyMMddHHmmss"
+        let dateFormatter = DateFormatter.hsExt.cached(withFormat: "yyyyMMddHHmmss")
+        // dateFormatter.dateFormat = "yyyyMMddHHmmss"
         
         if let date = dateFormatter.date(from: dateString) {
             return getTimeAgoFormat(date)

@@ -9,14 +9,14 @@
 import Foundation
 // MARK: - UIImage 上添加红点(可配合UITabBarController+RedDot使用)
 
-extension UIImageView: HansonExtensionProtocol {}
+//extension UIImageView: HansonExtensionProtocol {}
 extension HansonExtensionKit where T: UIImageView {
     
     public func redDot() -> UIView? {
         return wrappedValue.viewWithTag(9999)
     }
     
-    public func addRedDot(_ radius: CGFloat) {
+    public func addRedDot(_ radius: CGFloat = 2.5) {
         if let _ = wrappedValue.viewWithTag(9999) {
             return
         }
@@ -34,10 +34,6 @@ extension HansonExtensionKit where T: UIImageView {
         let hConstraint = NSLayoutConstraint(item: redDot, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: dotRadius * 2)
         let wConstraint = NSLayoutConstraint(item: redDot, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: dotRadius * 2)
         wrappedValue.addConstraints([topConstraint, rightConstraint, hConstraint, wConstraint])
-    }
-    
-    public func addRedDot() {
-        addRedDot(2.5)
     }
     
     public func clearRedDot() {

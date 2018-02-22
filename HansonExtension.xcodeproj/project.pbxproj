@@ -18,6 +18,7 @@
 		C0495ED61FAACF880038D624 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0495ED51FAACF880038D624 /* README.md */; };
 		C04C7D511FCCFADC007A81DC /* UIAlertAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C7D501FCCFADC007A81DC /* UIAlertAction+Extension.swift */; };
 		C074B08E1FC5E795000CD5D2 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074B08D1FC5E795000CD5D2 /* UITableView+Extension.swift */; };
+		C08A383A203E5FE900E46F78 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A3839203E5FE900E46F78 /* DateFormatter+Extension.swift */; };
 		C08C894F1FAD874C00F2715C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C894E1FAD874C00F2715C /* Date+Extension.swift */; };
 		C0AAD42F1FB6B3F9006AD3A2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */; };
 		C0AD80FE1FE89F4C005E7AA6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD80FD1FE89F4C005E7AA6 /* String+Extension.swift */; };
@@ -69,6 +70,7 @@
 		C0495ED51FAACF880038D624 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C04C7D501FCCFADC007A81DC /* UIAlertAction+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertAction+Extension.swift"; sourceTree = "<group>"; };
 		C074B08D1FC5E795000CD5D2 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		C08A3839203E5FE900E46F78 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
 		C08C894E1FAD874C00F2715C /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		C0AD80FD1FE89F4C005E7AA6 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				C0D375AE1FAAC58000DABFD1 /* UIColor+Extension.swift */,
 				C0F47D671FAB84AC0041A2FA /* UIImage+Extension.swift */,
 				C08C894E1FAD874C00F2715C /* Date+Extension.swift */,
+				C08A3839203E5FE900E46F78 /* DateFormatter+Extension.swift */,
 				C01D94EC1FB3711200EAEDED /* UIApplication+Extension.swift */,
 				C0B7BD911FB4BA47004FBA51 /* UIView+Extension.swift */,
 				C0AAD42E1FB6B3F9006AD3A2 /* UIButton+Extension.swift */,
@@ -313,6 +316,7 @@
 			files = (
 				C0B7BD921FB4BA47004FBA51 /* UIView+Extension.swift in Sources */,
 				C0F47D681FAB84AC0041A2FA /* UIImage+Extension.swift in Sources */,
+				C08A383A203E5FE900E46F78 /* DateFormatter+Extension.swift in Sources */,
 				C0BB844D201889CA008D2F1C /* UIImageView+RedDot.swift in Sources */,
 				C018B9F81FC26AE20053AE28 /* Double+Extension.swift in Sources */,
 				C0BB844B20188965008D2F1C /* UITabBarController+RedDot.swift in Sources */,
