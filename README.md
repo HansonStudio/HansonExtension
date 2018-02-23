@@ -1,9 +1,7 @@
 # HansonExtensionKit
 
-[![CI Status](http://img.shields.io/travis/zyphs21/HansonExtensionKit.svg?style=flat)](https://travis-ci.org/zyphs21/HansonExtensionKit)
-[![Version](https://img.shields.io/cocoapods/v/HansonExtensionKit.svg?style=flat)](http://cocoapods.org/pods/HansonExtensionKit)
-[![License](https://img.shields.io/cocoapods/l/HansonExtensionKit.svg?style=flat)](http://cocoapods.org/pods/HansonExtensionKit)
-[![Platform](https://img.shields.io/cocoapods/p/HansonExtensionKit.svg?style=flat)](http://cocoapods.org/pods/HansonExtensionKit)
+a collection of common extension function in Swift.
+if you get error in HansonExtensionPlayground, please select HansonExtensionKit  scheme and build with Simulator
 
 ## Example
 
@@ -19,10 +17,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'HansonExtensionKit'
 ```
-
-## Author
-
-zyphs21, hansenhs21@live.com
 
 ## License
 
