@@ -22,6 +22,7 @@
 		B7060860DC697A0F9D4A1C6FA57DAB55 /* HansonExtensionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD51500087C96C31273AB3951601CEF4 /* HansonExtensionKit-dummy.m */; };
 		BD9D728F3BB24F7E086D13C113A60724 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */; };
 		BFDEFC7993B83A0304E10DF03E189DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C0592E42203FFCD400FE2D70 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0592E41203FFCD400FE2D70 /* String+MD5.swift */; };
 		C95282DBC23F22E33A2B68B69FC52FD7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505441F1CA0214FC0A72952D51895AEA /* UIColor+Extension.swift */; };
 		CA0993E0DC3A60B9465578991E132293 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109D48275A3987D808874A5652167BA /* UITableView+Extension.swift */; };
 		D1302B8F638B651127BD207975A29201 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E271C135494B5BC1926DE12BC808E81 /* UITextField+Extension.swift */; };
@@ -45,33 +46,34 @@
 		04B46B43A120C288AEF56B85C1488D92 /* HansonExtensionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-prefix.pch"; sourceTree = "<group>"; };
 		06CA9920FC623320E55AD5AA46F20500 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "HansonExtensionKit/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
 		0E271C135494B5BC1926DE12BC808E81 /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "HansonExtensionKit/Classes/UITextField+Extension.swift"; sourceTree = "<group>"; };
-		19BBF0BC54595D952FD97D5ED3D59D67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19BBF0BC54595D952FD97D5ED3D59D67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		205737000759E0786BAFEB1475EA8CD7 /* HansonExtensionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-umbrella.h"; sourceTree = "<group>"; };
 		2292D0AD8C36276A60A4E604A26B2257 /* Pods-HansonExtensionKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HansonExtensionKit_Example-resources.sh"; sourceTree = "<group>"; };
 		28E6C5F7E6FC9D8733520AF7D790070E /* Pods-HansonExtensionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HansonExtensionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		399B11ACC16315C05BA95DE1221136CF /* Pods-HansonExtensionKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HansonExtensionKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A503BD315888765C0A14DDA1B616C66 /* Pods_HansonExtensionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HansonExtensionKit_Example.framework; path = "Pods-HansonExtensionKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A503BD315888765C0A14DDA1B616C66 /* Pods_HansonExtensionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansonExtensionKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8CF1505226306D731EE7BD1EB8E8D2 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "HansonExtensionKit/Classes/String+Extension.swift"; sourceTree = "<group>"; };
 		3C099FC35C513AA4790BA559B83E8733 /* HansonExtensionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HansonExtensionKit.xcconfig; sourceTree = "<group>"; };
-		4AC32C993374A5F5274CDBD843B86D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4BA00B036723C4486D0572A4CE60717B /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HansonExtensionKit.framework; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC32C993374A5F5274CDBD843B86D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4BA00B036723C4486D0572A4CE60717B /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5490ADED739D1D58213CB94255185D /* Pods-HansonExtensionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HansonExtensionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4E3ABDFC3D49D798A18E9F6B6F9F755A /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "HansonExtensionKit/Classes/UIView+Extension.swift"; sourceTree = "<group>"; };
 		505441F1CA0214FC0A72952D51895AEA /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "HansonExtensionKit/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		57E29EBEF85A856FCA07784B1A4D6409 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		628CED400A0C6465C78187992D7DA85B /* HansonExtensionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HansonExtensionKit.modulemap; sourceTree = "<group>"; };
+		628CED400A0C6465C78187992D7DA85B /* HansonExtensionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HansonExtensionKit.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7417C5ABCAC05FB60569566A24F5EC10 /* UIImageView+RedDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+RedDot.swift"; path = "HansonExtensionKit/Classes/UIImageView+RedDot.swift"; sourceTree = "<group>"; };
 		775919F67DE1A1372A21FF04049028C4 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Extension.swift"; path = "HansonExtensionKit/Classes/DateFormatter+Extension.swift"; sourceTree = "<group>"; };
 		831F5C91B0C7B38E2483FDA94D4D018B /* HansonExtensionKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HansonExtensionKit.swift; path = HansonExtensionKit/Classes/HansonExtensionKit.swift; sourceTree = "<group>"; };
 		890920C9DFBE45FBCFDCBDA1C96F0F7A /* Pods-HansonExtensionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HansonExtensionKit_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Extension.swift"; path = "HansonExtensionKit/Classes/UIButton+Extension.swift"; sourceTree = "<group>"; };
 		97EF1C46573BA2C603B4DDD3DA8F417F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9873547985C6A813650186AE2261BDBC /* Pods-HansonExtensionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HansonExtensionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		98775C49733BA0076ECA735F96AE22B3 /* Pods-HansonExtensionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HansonExtensionKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		A2322E604864CB9E616C74FDE53BB639 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "HansonExtensionKit/Classes/UIApplication+Extension.swift"; sourceTree = "<group>"; };
-		AEA9453C4A5AED9BAEF163B693AB249F /* Pods-HansonExtensionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HansonExtensionKit_Example.modulemap"; sourceTree = "<group>"; };
+		AEA9453C4A5AED9BAEF163B693AB249F /* Pods-HansonExtensionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HansonExtensionKit_Example.modulemap"; sourceTree = "<group>"; };
+		C0592E41203FFCD400FE2D70 /* String+MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		C400376A0E216D7A085541766396C39C /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "HansonExtensionKit/Classes/UIImage+Extension.swift"; sourceTree = "<group>"; };
 		C4C4BCED5556E7678475788FB7BBA4C0 /* Identifer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Identifer+Extension.swift"; path = "HansonExtensionKit/Classes/Identifer+Extension.swift"; sourceTree = "<group>"; };
 		C66AE468AC462D2135F72F18A5791344 /* UITabBarController+RedDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+RedDot.swift"; path = "HansonExtensionKit/Classes/UITabBarController+RedDot.swift"; sourceTree = "<group>"; };
@@ -80,7 +82,7 @@
 		E5333703C6F5CC1E6E8BB1109D040E30 /* UIAlertAction+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Extension.swift"; path = "HansonExtensionKit/Classes/UIAlertAction+Extension.swift"; sourceTree = "<group>"; };
 		F109D48275A3987D808874A5652167BA /* UITableView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "HansonExtensionKit/Classes/UITableView+Extension.swift"; sourceTree = "<group>"; };
 		FD51500087C96C31273AB3951601CEF4 /* HansonExtensionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HansonExtensionKit-dummy.m"; sourceTree = "<group>"; };
-		FF96304A674723529E6ECF17C9E8BE0B /* HansonExtensionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HansonExtensionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF96304A674723529E6ECF17C9E8BE0B /* HansonExtensionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HansonExtensionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				831F5C91B0C7B38E2483FDA94D4D018B /* HansonExtensionKit.swift */,
 				C4C4BCED5556E7678475788FB7BBA4C0 /* Identifer+Extension.swift */,
 				3B8CF1505226306D731EE7BD1EB8E8D2 /* String+Extension.swift */,
+				C0592E41203FFCD400FE2D70 /* String+MD5.swift */,
 				E5333703C6F5CC1E6E8BB1109D040E30 /* UIAlertAction+Extension.swift */,
 				A2322E604864CB9E616C74FDE53BB639 /* UIApplication+Extension.swift */,
 				959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */,
@@ -323,6 +326,7 @@
 				F4220BF64521B607797DC29F3F370DE9 /* Date+Extension.swift in Sources */,
 				87F7C60A97118EA6926FC720165412E9 /* DateFormatter+Extension.swift in Sources */,
 				D8309BF4C2993B7CE23DC92BEF6582DE /* Double+Extension.swift in Sources */,
+				C0592E42203FFCD400FE2D70 /* String+MD5.swift in Sources */,
 				B7060860DC697A0F9D4A1C6FA57DAB55 /* HansonExtensionKit-dummy.m in Sources */,
 				134B71CAEAC14D1AD1189BBD88AAC0BC /* HansonExtensionKit.swift in Sources */,
 				D76DD636E0F67784B6E5ADF380748B2C /* Identifer+Extension.swift in Sources */,

@@ -32,6 +32,9 @@ extension HansonExtensionKit where T == Double {
         return String(format: "%\(f)f", wrappedValue)
     }
     
+    /// 转带百分号的字符，保留小数点后两位
+    ///
+    /// - Returns: 带百分号的字符
     public func toPercentFormat() -> String {
         return String(format: "%.2f", wrappedValue * 100) + "%"
     }
@@ -61,6 +64,10 @@ extension HansonExtensionKit where T == Double {
         }
     }
     
+    
+    /// 转成日期
+    ///
+    /// - Returns: 日期 Date
     public func toDate() -> Date {
         let d: TimeInterval  = wrappedValue/1000
         
