@@ -1,0 +1,6 @@
+framework module HansonExtensionKit {
+  umbrella header "HansonExtensionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

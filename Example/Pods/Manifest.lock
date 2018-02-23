@@ -1,0 +1,16 @@
+PODS:
+  - HansonExtensionKit (0.1.0)
+
+DEPENDENCIES:
+  - HansonExtensionKit (from `../`)
+
+EXTERNAL SOURCES:
+  HansonExtensionKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HansonExtensionKit: 845888333e1f90017248b3fd477415999b076170
+
+PODFILE CHECKSUM: 44a2d6ca2bf6d293f27f494e447af748a09ef3ee
+
+COCOAPODS: 1.4.0

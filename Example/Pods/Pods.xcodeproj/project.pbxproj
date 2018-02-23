@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7001ACD41928E874B849196E064E82E0 /* HansonExtensionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617716CF0489D43791145AAFCCD652A2 /* HansonExtensionKit-dummy.m */; };
+		9382CA15DDF8BB59CA832D5C0BCBA30D /* HansonExtensionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C46CDF38CB796CF7BF0788B3430220 /* HansonExtensionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA178B0C364B1A5077328E30A073705B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C08D64FA203FB48800F0417D /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EA203FB48800F0417D /* UIApplication+Extension.swift */; };
+		C08D64FB203FB48800F0417D /* UIImageView+RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EB203FB48800F0417D /* UIImageView+RedDot.swift */; };
+		C08D64FC203FB48800F0417D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EC203FB48800F0417D /* UIColor+Extension.swift */; };
+		C08D64FD203FB48800F0417D /* UITabBarController+RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64ED203FB48800F0417D /* UITabBarController+RedDot.swift */; };
+		C08D64FE203FB48800F0417D /* Identifer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EE203FB48800F0417D /* Identifer+Extension.swift */; };
+		C08D64FF203FB48800F0417D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EF203FB48800F0417D /* Date+Extension.swift */; };
+		C08D6500203FB48800F0417D /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F0203FB48800F0417D /* UIButton+Extension.swift */; };
+		C08D6501203FB48800F0417D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F1203FB48800F0417D /* UIView+Extension.swift */; };
+		C08D6502203FB48800F0417D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F2203FB48800F0417D /* UIImage+Extension.swift */; };
+		C08D6503203FB48800F0417D /* UIAlertAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F3203FB48800F0417D /* UIAlertAction+Extension.swift */; };
+		C08D6504203FB48800F0417D /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F4203FB48800F0417D /* Double+Extension.swift */; };
+		C08D6505203FB48800F0417D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F5203FB48800F0417D /* String+Extension.swift */; };
+		C08D6506203FB48800F0417D /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F6203FB48800F0417D /* DateFormatter+Extension.swift */; };
+		C08D6507203FB48800F0417D /* HansonExtensionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F7203FB48800F0417D /* HansonExtensionKit.swift */; };
+		C08D6508203FB48800F0417D /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F8203FB48800F0417D /* UITextField+Extension.swift */; };
+		C08D6509203FB48800F0417D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F9203FB48800F0417D /* UITableView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40C46CDF38CB796CF7BF0788B3430220 /* HansonExtensionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-umbrella.h"; sourceTree = "<group>"; };
+		617716CF0489D43791145AAFCCD652A2 /* HansonExtensionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HansonExtensionKit-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B5F70A2D0776E6CD7688A59FD86224C /* HansonExtensionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HansonExtensionKit.modulemap; sourceTree = "<group>"; };
+		7C2EB872A6F15FD7FDAA217BC3015097 /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CB12226A3B7B5FFC53F826FF04319F /* HansonExtensionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HansonExtensionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8791F544B8CE62D8FABCC43BB6D18557 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HansonExtensionKit.xcconfig; sourceTree = "<group>"; };
+		C08D64EA203FB48800F0417D /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		C08D64EB203FB48800F0417D /* UIImageView+RedDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+RedDot.swift"; sourceTree = "<group>"; };
+		C08D64EC203FB48800F0417D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		C08D64ED203FB48800F0417D /* UITabBarController+RedDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+RedDot.swift"; sourceTree = "<group>"; };
+		C08D64EE203FB48800F0417D /* Identifer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Identifer+Extension.swift"; sourceTree = "<group>"; };
+		C08D64EF203FB48800F0417D /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F0203FB48800F0417D /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F1203FB48800F0417D /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F2203FB48800F0417D /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F3203FB48800F0417D /* UIAlertAction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertAction+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F4203FB48800F0417D /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F5203FB48800F0417D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F6203FB48800F0417D /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F7203FB48800F0417D /* HansonExtensionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HansonExtensionKit.swift; sourceTree = "<group>"; };
+		C08D64F8203FB48800F0417D /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C08D64F9203FB48800F0417D /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		D994CA952F34364342E8C30002A5CF90 /* HansonExtensionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-prefix.pch"; sourceTree = "<group>"; };
+		E0415E2B917E2BACC9C0F2E51E029DC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F90F972934EA66C278D90123C8C89ECC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C2400EE2CA8727E4734C37C8B7348B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA178B0C364B1A5077328E30A073705B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E29C158614211F7CE0849D6480FD2C /* HansonExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				C08D64E9203FB48800F0417D /* Classes */,
+				E946F60567E2AD47E7296A16439E70BD /* Pod */,
+				F6FD28433DB674548369C89B1C28AFF7 /* Support Files */,
+			);
+			name = HansonExtensionKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		784B7ABA7905FDB458E7F6CB7CC9A452 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40E29C158614211F7CE0849D6480FD2C /* HansonExtensionKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				784B7ABA7905FDB458E7F6CB7CC9A452 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FDD57A0BEC947D0FEB753757B57DB148 /* Products */,
+				B96E119C674CF45A894036186F775027 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B96E119C674CF45A894036186F775027 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C08D64E9203FB48800F0417D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C08D64EA203FB48800F0417D /* UIApplication+Extension.swift */,
+				C08D64EB203FB48800F0417D /* UIImageView+RedDot.swift */,
+				C08D64EC203FB48800F0417D /* UIColor+Extension.swift */,
+				C08D64ED203FB48800F0417D /* UITabBarController+RedDot.swift */,
+				C08D64EE203FB48800F0417D /* Identifer+Extension.swift */,
+				C08D64EF203FB48800F0417D /* Date+Extension.swift */,
+				C08D64F0203FB48800F0417D /* UIButton+Extension.swift */,
+				C08D64F1203FB48800F0417D /* UIView+Extension.swift */,
+				C08D64F2203FB48800F0417D /* UIImage+Extension.swift */,
+				C08D64F3203FB48800F0417D /* UIAlertAction+Extension.swift */,
+				C08D64F4203FB48800F0417D /* Double+Extension.swift */,
+				C08D64F5203FB48800F0417D /* String+Extension.swift */,
+				C08D64F6203FB48800F0417D /* DateFormatter+Extension.swift */,
+				C08D64F7203FB48800F0417D /* HansonExtensionKit.swift */,
+				C08D64F8203FB48800F0417D /* UITextField+Extension.swift */,
+				C08D64F9203FB48800F0417D /* UITableView+Extension.swift */,
+			);
+			name = Classes;
+			path = HansonExtensionKit/Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E946F60567E2AD47E7296A16439E70BD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				84CB12226A3B7B5FFC53F826FF04319F /* HansonExtensionKit.podspec */,
+				E0415E2B917E2BACC9C0F2E51E029DC1 /* LICENSE */,
+				8791F544B8CE62D8FABCC43BB6D18557 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F6FD28433DB674548369C89B1C28AFF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B5F70A2D0776E6CD7688A59FD86224C /* HansonExtensionKit.modulemap */,
+				96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */,
+				617716CF0489D43791145AAFCCD652A2 /* HansonExtensionKit-dummy.m */,
+				D994CA952F34364342E8C30002A5CF90 /* HansonExtensionKit-prefix.pch */,
+				40C46CDF38CB796CF7BF0788B3430220 /* HansonExtensionKit-umbrella.h */,
+				F90F972934EA66C278D90123C8C89ECC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HansonExtensionKit";
+			sourceTree = "<group>";
+		};
+		FDD57A0BEC947D0FEB753757B57DB148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C2EB872A6F15FD7FDAA217BC3015097 /* HansonExtensionKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13E22E0410F846AFD27F66A3233EE6DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9382CA15DDF8BB59CA832D5C0BCBA30D /* HansonExtensionKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A45106C0178513EAC7873BD03DA30335 /* HansonExtensionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E41D0BC4FC0E0AD95921D61F18472C /* Build configuration list for PBXNativeTarget "HansonExtensionKit" */;
+			buildPhases = (
+				BCDFA06095BE82823B174D70232BDBEE /* Sources */,
+				F5C2400EE2CA8727E4734C37C8B7348B /* Frameworks */,
+				13E22E0410F846AFD27F66A3233EE6DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HansonExtensionKit;
+			productName = HansonExtensionKit;
+			productReference = 7C2EB872A6F15FD7FDAA217BC3015097 /* HansonExtensionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FDD57A0BEC947D0FEB753757B57DB148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45106C0178513EAC7873BD03DA30335 /* HansonExtensionKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCDFA06095BE82823B174D70232BDBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08D64FA203FB48800F0417D /* UIApplication+Extension.swift in Sources */,
+				C08D6507203FB48800F0417D /* HansonExtensionKit.swift in Sources */,
+				7001ACD41928E874B849196E064E82E0 /* HansonExtensionKit-dummy.m in Sources */,
+				C08D64FB203FB48800F0417D /* UIImageView+RedDot.swift in Sources */,
+				C08D6501203FB48800F0417D /* UIView+Extension.swift in Sources */,
+				C08D6508203FB48800F0417D /* UITextField+Extension.swift in Sources */,
+				C08D6509203FB48800F0417D /* UITableView+Extension.swift in Sources */,
+				C08D64FD203FB48800F0417D /* UITabBarController+RedDot.swift in Sources */,
+				C08D64FF203FB48800F0417D /* Date+Extension.swift in Sources */,
+				C08D6505203FB48800F0417D /* String+Extension.swift in Sources */,
+				C08D6500203FB48800F0417D /* UIButton+Extension.swift in Sources */,
+				C08D6502203FB48800F0417D /* UIImage+Extension.swift in Sources */,
+				C08D6504203FB48800F0417D /* Double+Extension.swift in Sources */,
+				C08D6506203FB48800F0417D /* DateFormatter+Extension.swift in Sources */,
+				C08D6503203FB48800F0417D /* UIAlertAction+Extension.swift in Sources */,
+				C08D64FE203FB48800F0417D /* Identifer+Extension.swift in Sources */,
+				C08D64FC203FB48800F0417D /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A127CF20033E81F9EE426291843F375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HansonExtensionKit/HansonExtensionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HansonExtensionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HansonExtensionKit/HansonExtensionKit.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = org.HansonStudio.HansonExtensionKit;
+				PRODUCT_NAME = HansonExtensionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E7FE58754943E59B2D2993AA69F3CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HansonExtensionKit/HansonExtensionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HansonExtensionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HansonExtensionKit/HansonExtensionKit.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = org.HansonStudio.HansonExtensionKit;
+				PRODUCT_NAME = HansonExtensionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E41D0BC4FC0E0AD95921D61F18472C /* Build configuration list for PBXNativeTarget "HansonExtensionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7FE58754943E59B2D2993AA69F3CDC /* Debug */,
+				6A127CF20033E81F9EE426291843F375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
