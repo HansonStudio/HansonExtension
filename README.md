@@ -1,7 +1,7 @@
 # HansonExtensionKit
 
 a collection of common extension function in Swift.
-if you get error in HansonExtensionPlayground, please select HansonExtensionKit  scheme and build with Simulator
+if you get error in HansonExtensionPlayground, please select HansonExtensionKit  target in Pods project and cmd+B
 
 ## Example
 
