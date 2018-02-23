@@ -1,9 +1,8 @@
 {
   "name": "HansonExtensionKit",
-  "version": "0.1.0",
-  "summary": "A short description of HansonExtensionKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zyphs21/HansonExtensionKit",
+  "version": "0.1.1",
+  "summary": "A collection of common extension functions in Swift.",
+  "homepage": "https://github.com/HansonStudio/HansonExtension",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,12 @@
     "zyphs21": "hansenhs21@live.com"
   },
   "source": {
-    "git": "https://github.com/zyphs21/HansonExtensionKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/HansonStudio/HansonExtension.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
+  "swift_version": "4.0",
   "source_files": "HansonExtensionKit/Classes/**/*"
 }

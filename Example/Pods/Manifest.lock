@@ -1,5 +1,5 @@
 PODS:
-  - HansonExtensionKit (0.1.0)
+  - HansonExtensionKit (0.1.1)
 
 DEPENDENCIES:
   - HansonExtensionKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HansonExtensionKit: 845888333e1f90017248b3fd477415999b076170
+  HansonExtensionKit: 7215a21015e066ac070a6b8795018d5df3dba30f
 
-PODFILE CHECKSUM: 44a2d6ca2bf6d293f27f494e447af748a09ef3ee
+PODFILE CHECKSUM: 9ce756af750a4a1e7f1b08ea37b6078aa893d3db
 
 COCOAPODS: 1.4.0

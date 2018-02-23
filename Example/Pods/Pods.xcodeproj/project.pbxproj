@@ -7,105 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7001ACD41928E874B849196E064E82E0 /* HansonExtensionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617716CF0489D43791145AAFCCD652A2 /* HansonExtensionKit-dummy.m */; };
-		9382CA15DDF8BB59CA832D5C0BCBA30D /* HansonExtensionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C46CDF38CB796CF7BF0788B3430220 /* HansonExtensionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA178B0C364B1A5077328E30A073705B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C08D64FA203FB48800F0417D /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EA203FB48800F0417D /* UIApplication+Extension.swift */; };
-		C08D64FB203FB48800F0417D /* UIImageView+RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EB203FB48800F0417D /* UIImageView+RedDot.swift */; };
-		C08D64FC203FB48800F0417D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EC203FB48800F0417D /* UIColor+Extension.swift */; };
-		C08D64FD203FB48800F0417D /* UITabBarController+RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64ED203FB48800F0417D /* UITabBarController+RedDot.swift */; };
-		C08D64FE203FB48800F0417D /* Identifer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EE203FB48800F0417D /* Identifer+Extension.swift */; };
-		C08D64FF203FB48800F0417D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64EF203FB48800F0417D /* Date+Extension.swift */; };
-		C08D6500203FB48800F0417D /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F0203FB48800F0417D /* UIButton+Extension.swift */; };
-		C08D6501203FB48800F0417D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F1203FB48800F0417D /* UIView+Extension.swift */; };
-		C08D6502203FB48800F0417D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F2203FB48800F0417D /* UIImage+Extension.swift */; };
-		C08D6503203FB48800F0417D /* UIAlertAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F3203FB48800F0417D /* UIAlertAction+Extension.swift */; };
-		C08D6504203FB48800F0417D /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F4203FB48800F0417D /* Double+Extension.swift */; };
-		C08D6505203FB48800F0417D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F5203FB48800F0417D /* String+Extension.swift */; };
-		C08D6506203FB48800F0417D /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F6203FB48800F0417D /* DateFormatter+Extension.swift */; };
-		C08D6507203FB48800F0417D /* HansonExtensionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F7203FB48800F0417D /* HansonExtensionKit.swift */; };
-		C08D6508203FB48800F0417D /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F8203FB48800F0417D /* UITextField+Extension.swift */; };
-		C08D6509203FB48800F0417D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D64F9203FB48800F0417D /* UITableView+Extension.swift */; };
+		0C00DAC438CEE38B5A2DAADCECB4E390 /* UIAlertAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5333703C6F5CC1E6E8BB1109D040E30 /* UIAlertAction+Extension.swift */; };
+		134B71CAEAC14D1AD1189BBD88AAC0BC /* HansonExtensionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F5C91B0C7B38E2483FDA94D4D018B /* HansonExtensionKit.swift */; };
+		1B55F6CE236F80A94DE1DD2186CF4618 /* HansonExtensionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 205737000759E0786BAFEB1475EA8CD7 /* HansonExtensionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6866F20B099F3A5EA262D16D2D30A2 /* Pods-HansonExtensionKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98775C49733BA0076ECA735F96AE22B3 /* Pods-HansonExtensionKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3246BF86D48B4CFC9B2085EB899A0AA3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3ABDFC3D49D798A18E9F6B6F9F755A /* UIView+Extension.swift */; };
+		3D3C2DF471A4E57F57BB87E8F21CC4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61D71EC4946D76946C5D53F6F9329593 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2322E604864CB9E616C74FDE53BB639 /* UIApplication+Extension.swift */; };
+		692662AD093ADDD4A6DC9EC65CA1A9DD /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400376A0E216D7A085541766396C39C /* UIImage+Extension.swift */; };
+		87F7C60A97118EA6926FC720165412E9 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775919F67DE1A1372A21FF04049028C4 /* DateFormatter+Extension.swift */; };
+		8BD8FC63D6314BAC71C2D7AFCF6D4583 /* UITabBarController+RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66AE468AC462D2135F72F18A5791344 /* UITabBarController+RedDot.swift */; };
+		937343086AE9018FA44689EE6C5F0CB1 /* Pods-HansonExtensionKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 890920C9DFBE45FBCFDCBDA1C96F0F7A /* Pods-HansonExtensionKit_Example-dummy.m */; };
+		A604321CF2158A421D2FA52BC59F3523 /* UIImageView+RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417C5ABCAC05FB60569566A24F5EC10 /* UIImageView+RedDot.swift */; };
+		B7060860DC697A0F9D4A1C6FA57DAB55 /* HansonExtensionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD51500087C96C31273AB3951601CEF4 /* HansonExtensionKit-dummy.m */; };
+		BD9D728F3BB24F7E086D13C113A60724 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */; };
+		BFDEFC7993B83A0304E10DF03E189DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C95282DBC23F22E33A2B68B69FC52FD7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505441F1CA0214FC0A72952D51895AEA /* UIColor+Extension.swift */; };
+		CA0993E0DC3A60B9465578991E132293 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109D48275A3987D808874A5652167BA /* UITableView+Extension.swift */; };
+		D1302B8F638B651127BD207975A29201 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E271C135494B5BC1926DE12BC808E81 /* UITextField+Extension.swift */; };
+		D6BB731C25C8E958BA765F18A15B097F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CF1505226306D731EE7BD1EB8E8D2 /* String+Extension.swift */; };
+		D76DD636E0F67784B6E5ADF380748B2C /* Identifer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C4BCED5556E7678475788FB7BBA4C0 /* Identifer+Extension.swift */; };
+		D8309BF4C2993B7CE23DC92BEF6582DE /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61E5275BDD05EDC622338658D2E1C0 /* Double+Extension.swift */; };
+		F4220BF64521B607797DC29F3F370DE9 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA9920FC623320E55AD5AA46F20500 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B57E43C91F2D91D986DD525238A11B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D642CA8E646716AB7635369E94008D12;
+			remoteInfo = HansonExtensionKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		40C46CDF38CB796CF7BF0788B3430220 /* HansonExtensionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-umbrella.h"; sourceTree = "<group>"; };
-		617716CF0489D43791145AAFCCD652A2 /* HansonExtensionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HansonExtensionKit-dummy.m"; sourceTree = "<group>"; };
+		04B46B43A120C288AEF56B85C1488D92 /* HansonExtensionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-prefix.pch"; sourceTree = "<group>"; };
+		06CA9920FC623320E55AD5AA46F20500 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "HansonExtensionKit/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
+		0E271C135494B5BC1926DE12BC808E81 /* UITextField+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Extension.swift"; path = "HansonExtensionKit/Classes/UITextField+Extension.swift"; sourceTree = "<group>"; };
+		19BBF0BC54595D952FD97D5ED3D59D67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		205737000759E0786BAFEB1475EA8CD7 /* HansonExtensionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-umbrella.h"; sourceTree = "<group>"; };
+		2292D0AD8C36276A60A4E604A26B2257 /* Pods-HansonExtensionKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HansonExtensionKit_Example-resources.sh"; sourceTree = "<group>"; };
+		28E6C5F7E6FC9D8733520AF7D790070E /* Pods-HansonExtensionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HansonExtensionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		399B11ACC16315C05BA95DE1221136CF /* Pods-HansonExtensionKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HansonExtensionKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A503BD315888765C0A14DDA1B616C66 /* Pods_HansonExtensionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HansonExtensionKit_Example.framework; path = "Pods-HansonExtensionKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8CF1505226306D731EE7BD1EB8E8D2 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "HansonExtensionKit/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		3C099FC35C513AA4790BA559B83E8733 /* HansonExtensionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HansonExtensionKit.xcconfig; sourceTree = "<group>"; };
+		4AC32C993374A5F5274CDBD843B86D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4BA00B036723C4486D0572A4CE60717B /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HansonExtensionKit.framework; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5490ADED739D1D58213CB94255185D /* Pods-HansonExtensionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HansonExtensionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E3ABDFC3D49D798A18E9F6B6F9F755A /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "HansonExtensionKit/Classes/UIView+Extension.swift"; sourceTree = "<group>"; };
+		505441F1CA0214FC0A72952D51895AEA /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "HansonExtensionKit/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		57E29EBEF85A856FCA07784B1A4D6409 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628CED400A0C6465C78187992D7DA85B /* HansonExtensionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HansonExtensionKit.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B5F70A2D0776E6CD7688A59FD86224C /* HansonExtensionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HansonExtensionKit.modulemap; sourceTree = "<group>"; };
-		7C2EB872A6F15FD7FDAA217BC3015097 /* HansonExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HansonExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84CB12226A3B7B5FFC53F826FF04319F /* HansonExtensionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HansonExtensionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8791F544B8CE62D8FABCC43BB6D18557 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HansonExtensionKit.xcconfig; sourceTree = "<group>"; };
-		C08D64EA203FB48800F0417D /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
-		C08D64EB203FB48800F0417D /* UIImageView+RedDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+RedDot.swift"; sourceTree = "<group>"; };
-		C08D64EC203FB48800F0417D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		C08D64ED203FB48800F0417D /* UITabBarController+RedDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+RedDot.swift"; sourceTree = "<group>"; };
-		C08D64EE203FB48800F0417D /* Identifer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Identifer+Extension.swift"; sourceTree = "<group>"; };
-		C08D64EF203FB48800F0417D /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F0203FB48800F0417D /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F1203FB48800F0417D /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F2203FB48800F0417D /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F3203FB48800F0417D /* UIAlertAction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertAction+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F4203FB48800F0417D /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F5203FB48800F0417D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F6203FB48800F0417D /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F7203FB48800F0417D /* HansonExtensionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HansonExtensionKit.swift; sourceTree = "<group>"; };
-		C08D64F8203FB48800F0417D /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
-		C08D64F9203FB48800F0417D /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
-		D994CA952F34364342E8C30002A5CF90 /* HansonExtensionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HansonExtensionKit-prefix.pch"; sourceTree = "<group>"; };
-		E0415E2B917E2BACC9C0F2E51E029DC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F90F972934EA66C278D90123C8C89ECC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7417C5ABCAC05FB60569566A24F5EC10 /* UIImageView+RedDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+RedDot.swift"; path = "HansonExtensionKit/Classes/UIImageView+RedDot.swift"; sourceTree = "<group>"; };
+		775919F67DE1A1372A21FF04049028C4 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Extension.swift"; path = "HansonExtensionKit/Classes/DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		831F5C91B0C7B38E2483FDA94D4D018B /* HansonExtensionKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HansonExtensionKit.swift; path = HansonExtensionKit/Classes/HansonExtensionKit.swift; sourceTree = "<group>"; };
+		890920C9DFBE45FBCFDCBDA1C96F0F7A /* Pods-HansonExtensionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HansonExtensionKit_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Extension.swift"; path = "HansonExtensionKit/Classes/UIButton+Extension.swift"; sourceTree = "<group>"; };
+		97EF1C46573BA2C603B4DDD3DA8F417F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9873547985C6A813650186AE2261BDBC /* Pods-HansonExtensionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HansonExtensionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98775C49733BA0076ECA735F96AE22B3 /* Pods-HansonExtensionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HansonExtensionKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		A2322E604864CB9E616C74FDE53BB639 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "HansonExtensionKit/Classes/UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		AEA9453C4A5AED9BAEF163B693AB249F /* Pods-HansonExtensionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HansonExtensionKit_Example.modulemap"; sourceTree = "<group>"; };
+		C400376A0E216D7A085541766396C39C /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "HansonExtensionKit/Classes/UIImage+Extension.swift"; sourceTree = "<group>"; };
+		C4C4BCED5556E7678475788FB7BBA4C0 /* Identifer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Identifer+Extension.swift"; path = "HansonExtensionKit/Classes/Identifer+Extension.swift"; sourceTree = "<group>"; };
+		C66AE468AC462D2135F72F18A5791344 /* UITabBarController+RedDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+RedDot.swift"; path = "HansonExtensionKit/Classes/UITabBarController+RedDot.swift"; sourceTree = "<group>"; };
+		DC61E5275BDD05EDC622338658D2E1C0 /* Double+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Extension.swift"; path = "HansonExtensionKit/Classes/Double+Extension.swift"; sourceTree = "<group>"; };
+		E0ED0AAE8BA7B2F9E49552712528B66D /* Pods-HansonExtensionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HansonExtensionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5333703C6F5CC1E6E8BB1109D040E30 /* UIAlertAction+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Extension.swift"; path = "HansonExtensionKit/Classes/UIAlertAction+Extension.swift"; sourceTree = "<group>"; };
+		F109D48275A3987D808874A5652167BA /* UITableView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "HansonExtensionKit/Classes/UITableView+Extension.swift"; sourceTree = "<group>"; };
+		FD51500087C96C31273AB3951601CEF4 /* HansonExtensionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HansonExtensionKit-dummy.m"; sourceTree = "<group>"; };
+		FF96304A674723529E6ECF17C9E8BE0B /* HansonExtensionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HansonExtensionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F5C2400EE2CA8727E4734C37C8B7348B /* Frameworks */ = {
+		1D864BEFA64D6614591DFD33280D8FE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA178B0C364B1A5077328E30A073705B /* Foundation.framework in Frameworks */,
+				BFDEFC7993B83A0304E10DF03E189DB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510D19005CEBEA0C5A77430492DAAA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3C2DF471A4E57F57BB87E8F21CC4F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40E29C158614211F7CE0849D6480FD2C /* HansonExtensionKit */ = {
+		096A24C9A6A675CE00A89D4DBF6ADF88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C08D64E9203FB48800F0417D /* Classes */,
-				E946F60567E2AD47E7296A16439E70BD /* Pod */,
-				F6FD28433DB674548369C89B1C28AFF7 /* Support Files */,
+				4BA00B036723C4486D0572A4CE60717B /* HansonExtensionKit.framework */,
+				3A503BD315888765C0A14DDA1B616C66 /* Pods_HansonExtensionKit_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E75987AAFCA8187C89CAEAF20E10220 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5B2FD688CB7E088C51CF3A7DE7812A /* Pods-HansonExtensionKit_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11439B08DE60225CDB00CCA3625DC41E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF96304A674723529E6ECF17C9E8BE0B /* HansonExtensionKit.podspec */,
+				4AC32C993374A5F5274CDBD843B86D62 /* LICENSE */,
+				19BBF0BC54595D952FD97D5ED3D59D67 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2E5B2FD688CB7E088C51CF3A7DE7812A /* Pods-HansonExtensionKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				57E29EBEF85A856FCA07784B1A4D6409 /* Info.plist */,
+				AEA9453C4A5AED9BAEF163B693AB249F /* Pods-HansonExtensionKit_Example.modulemap */,
+				399B11ACC16315C05BA95DE1221136CF /* Pods-HansonExtensionKit_Example-acknowledgements.markdown */,
+				E0ED0AAE8BA7B2F9E49552712528B66D /* Pods-HansonExtensionKit_Example-acknowledgements.plist */,
+				890920C9DFBE45FBCFDCBDA1C96F0F7A /* Pods-HansonExtensionKit_Example-dummy.m */,
+				9873547985C6A813650186AE2261BDBC /* Pods-HansonExtensionKit_Example-frameworks.sh */,
+				2292D0AD8C36276A60A4E604A26B2257 /* Pods-HansonExtensionKit_Example-resources.sh */,
+				98775C49733BA0076ECA735F96AE22B3 /* Pods-HansonExtensionKit_Example-umbrella.h */,
+				28E6C5F7E6FC9D8733520AF7D790070E /* Pods-HansonExtensionKit_Example.debug.xcconfig */,
+				4C5490ADED739D1D58213CB94255185D /* Pods-HansonExtensionKit_Example.release.xcconfig */,
+			);
+			name = "Pods-HansonExtensionKit_Example";
+			path = "Target Support Files/Pods-HansonExtensionKit_Example";
+			sourceTree = "<group>";
+		};
+		6D864D981D0F53C6389DE01645FD9D37 /* HansonExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				06CA9920FC623320E55AD5AA46F20500 /* Date+Extension.swift */,
+				775919F67DE1A1372A21FF04049028C4 /* DateFormatter+Extension.swift */,
+				DC61E5275BDD05EDC622338658D2E1C0 /* Double+Extension.swift */,
+				831F5C91B0C7B38E2483FDA94D4D018B /* HansonExtensionKit.swift */,
+				C4C4BCED5556E7678475788FB7BBA4C0 /* Identifer+Extension.swift */,
+				3B8CF1505226306D731EE7BD1EB8E8D2 /* String+Extension.swift */,
+				E5333703C6F5CC1E6E8BB1109D040E30 /* UIAlertAction+Extension.swift */,
+				A2322E604864CB9E616C74FDE53BB639 /* UIApplication+Extension.swift */,
+				959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */,
+				505441F1CA0214FC0A72952D51895AEA /* UIColor+Extension.swift */,
+				C400376A0E216D7A085541766396C39C /* UIImage+Extension.swift */,
+				7417C5ABCAC05FB60569566A24F5EC10 /* UIImageView+RedDot.swift */,
+				C66AE468AC462D2135F72F18A5791344 /* UITabBarController+RedDot.swift */,
+				F109D48275A3987D808874A5652167BA /* UITableView+Extension.swift */,
+				0E271C135494B5BC1926DE12BC808E81 /* UITextField+Extension.swift */,
+				4E3ABDFC3D49D798A18E9F6B6F9F755A /* UIView+Extension.swift */,
+				11439B08DE60225CDB00CCA3625DC41E /* Pod */,
+				BE73AABB700E9AEFB9A7730C2AD8F2A9 /* Support Files */,
 			);
 			name = HansonExtensionKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		784B7ABA7905FDB458E7F6CB7CC9A452 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				40E29C158614211F7CE0849D6480FD2C /* HansonExtensionKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				784B7ABA7905FDB458E7F6CB7CC9A452 /* Development Pods */,
+				F413E988E51F66A60C295908B9A3E21B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FDD57A0BEC947D0FEB753757B57DB148 /* Products */,
-				B96E119C674CF45A894036186F775027 /* Targets Support Files */,
+				096A24C9A6A675CE00A89D4DBF6ADF88 /* Products */,
+				0E75987AAFCA8187C89CAEAF20E10220 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B96E119C674CF45A894036186F775027 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -116,28 +193,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C08D64E9203FB48800F0417D /* Classes */ = {
+		BE73AABB700E9AEFB9A7730C2AD8F2A9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C08D64EA203FB48800F0417D /* UIApplication+Extension.swift */,
-				C08D64EB203FB48800F0417D /* UIImageView+RedDot.swift */,
-				C08D64EC203FB48800F0417D /* UIColor+Extension.swift */,
-				C08D64ED203FB48800F0417D /* UITabBarController+RedDot.swift */,
-				C08D64EE203FB48800F0417D /* Identifer+Extension.swift */,
-				C08D64EF203FB48800F0417D /* Date+Extension.swift */,
-				C08D64F0203FB48800F0417D /* UIButton+Extension.swift */,
-				C08D64F1203FB48800F0417D /* UIView+Extension.swift */,
-				C08D64F2203FB48800F0417D /* UIImage+Extension.swift */,
-				C08D64F3203FB48800F0417D /* UIAlertAction+Extension.swift */,
-				C08D64F4203FB48800F0417D /* Double+Extension.swift */,
-				C08D64F5203FB48800F0417D /* String+Extension.swift */,
-				C08D64F6203FB48800F0417D /* DateFormatter+Extension.swift */,
-				C08D64F7203FB48800F0417D /* HansonExtensionKit.swift */,
-				C08D64F8203FB48800F0417D /* UITextField+Extension.swift */,
-				C08D64F9203FB48800F0417D /* UITableView+Extension.swift */,
+				628CED400A0C6465C78187992D7DA85B /* HansonExtensionKit.modulemap */,
+				3C099FC35C513AA4790BA559B83E8733 /* HansonExtensionKit.xcconfig */,
+				FD51500087C96C31273AB3951601CEF4 /* HansonExtensionKit-dummy.m */,
+				04B46B43A120C288AEF56B85C1488D92 /* HansonExtensionKit-prefix.pch */,
+				205737000759E0786BAFEB1475EA8CD7 /* HansonExtensionKit-umbrella.h */,
+				97EF1C46573BA2C603B4DDD3DA8F417F /* Info.plist */,
 			);
-			name = Classes;
-			path = HansonExtensionKit/Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HansonExtensionKit";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -148,59 +215,61 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E946F60567E2AD47E7296A16439E70BD /* Pod */ = {
+		F413E988E51F66A60C295908B9A3E21B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84CB12226A3B7B5FFC53F826FF04319F /* HansonExtensionKit.podspec */,
-				E0415E2B917E2BACC9C0F2E51E029DC1 /* LICENSE */,
-				8791F544B8CE62D8FABCC43BB6D18557 /* README.md */,
+				6D864D981D0F53C6389DE01645FD9D37 /* HansonExtensionKit */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F6FD28433DB674548369C89B1C28AFF7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B5F70A2D0776E6CD7688A59FD86224C /* HansonExtensionKit.modulemap */,
-				96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */,
-				617716CF0489D43791145AAFCCD652A2 /* HansonExtensionKit-dummy.m */,
-				D994CA952F34364342E8C30002A5CF90 /* HansonExtensionKit-prefix.pch */,
-				40C46CDF38CB796CF7BF0788B3430220 /* HansonExtensionKit-umbrella.h */,
-				F90F972934EA66C278D90123C8C89ECC /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HansonExtensionKit";
-			sourceTree = "<group>";
-		};
-		FDD57A0BEC947D0FEB753757B57DB148 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7C2EB872A6F15FD7FDAA217BC3015097 /* HansonExtensionKit.framework */,
-			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13E22E0410F846AFD27F66A3233EE6DB /* Headers */ = {
+		425566331C5091F6A3DBDB292AF7F683 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9382CA15DDF8BB59CA832D5C0BCBA30D /* HansonExtensionKit-umbrella.h in Headers */,
+				2B6866F20B099F3A5EA262D16D2D30A2 /* Pods-HansonExtensionKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C4989B82353BA3F527FCB7D8412B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B55F6CE236F80A94DE1DD2186CF4618 /* HansonExtensionKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A45106C0178513EAC7873BD03DA30335 /* HansonExtensionKit */ = {
+		9181DD873DA27A2EE6F028852022DB46 /* Pods-HansonExtensionKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4E41D0BC4FC0E0AD95921D61F18472C /* Build configuration list for PBXNativeTarget "HansonExtensionKit" */;
+			buildConfigurationList = 5AF4110E08D947834EFB9B62612A06AF /* Build configuration list for PBXNativeTarget "Pods-HansonExtensionKit_Example" */;
 			buildPhases = (
-				BCDFA06095BE82823B174D70232BDBEE /* Sources */,
-				F5C2400EE2CA8727E4734C37C8B7348B /* Frameworks */,
-				13E22E0410F846AFD27F66A3233EE6DB /* Headers */,
+				3B865E317B4B06A6710759EB550DAC1A /* Sources */,
+				510D19005CEBEA0C5A77430492DAAA0C /* Frameworks */,
+				425566331C5091F6A3DBDB292AF7F683 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92679EBC7BB4373A8B454034A8AAC8F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-HansonExtensionKit_Example";
+			productName = "Pods-HansonExtensionKit_Example";
+			productReference = 3A503BD315888765C0A14DDA1B616C66 /* Pods_HansonExtensionKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D642CA8E646716AB7635369E94008D12 /* HansonExtensionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BEAE7FD0199CF268250DCAACFB66B4 /* Build configuration list for PBXNativeTarget "HansonExtensionKit" */;
+			buildPhases = (
+				69BE448736C439BF98846592CF210FCC /* Sources */,
+				1D864BEFA64D6614591DFD33280D8FE8 /* Frameworks */,
+				AA4C4989B82353BA3F527FCB7D8412B6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -208,7 +277,7 @@
 			);
 			name = HansonExtensionKit;
 			productName = HansonExtensionKit;
-			productReference = 7C2EB872A6F15FD7FDAA217BC3015097 /* HansonExtensionKit.framework */;
+			productReference = 4BA00B036723C4486D0572A4CE60717B /* HansonExtensionKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -228,43 +297,95 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FDD57A0BEC947D0FEB753757B57DB148 /* Products */;
+			productRefGroup = 096A24C9A6A675CE00A89D4DBF6ADF88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A45106C0178513EAC7873BD03DA30335 /* HansonExtensionKit */,
+				D642CA8E646716AB7635369E94008D12 /* HansonExtensionKit */,
+				9181DD873DA27A2EE6F028852022DB46 /* Pods-HansonExtensionKit_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BCDFA06095BE82823B174D70232BDBEE /* Sources */ = {
+		3B865E317B4B06A6710759EB550DAC1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08D64FA203FB48800F0417D /* UIApplication+Extension.swift in Sources */,
-				C08D6507203FB48800F0417D /* HansonExtensionKit.swift in Sources */,
-				7001ACD41928E874B849196E064E82E0 /* HansonExtensionKit-dummy.m in Sources */,
-				C08D64FB203FB48800F0417D /* UIImageView+RedDot.swift in Sources */,
-				C08D6501203FB48800F0417D /* UIView+Extension.swift in Sources */,
-				C08D6508203FB48800F0417D /* UITextField+Extension.swift in Sources */,
-				C08D6509203FB48800F0417D /* UITableView+Extension.swift in Sources */,
-				C08D64FD203FB48800F0417D /* UITabBarController+RedDot.swift in Sources */,
-				C08D64FF203FB48800F0417D /* Date+Extension.swift in Sources */,
-				C08D6505203FB48800F0417D /* String+Extension.swift in Sources */,
-				C08D6500203FB48800F0417D /* UIButton+Extension.swift in Sources */,
-				C08D6502203FB48800F0417D /* UIImage+Extension.swift in Sources */,
-				C08D6504203FB48800F0417D /* Double+Extension.swift in Sources */,
-				C08D6506203FB48800F0417D /* DateFormatter+Extension.swift in Sources */,
-				C08D6503203FB48800F0417D /* UIAlertAction+Extension.swift in Sources */,
-				C08D64FE203FB48800F0417D /* Identifer+Extension.swift in Sources */,
-				C08D64FC203FB48800F0417D /* UIColor+Extension.swift in Sources */,
+				937343086AE9018FA44689EE6C5F0CB1 /* Pods-HansonExtensionKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BE448736C439BF98846592CF210FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4220BF64521B607797DC29F3F370DE9 /* Date+Extension.swift in Sources */,
+				87F7C60A97118EA6926FC720165412E9 /* DateFormatter+Extension.swift in Sources */,
+				D8309BF4C2993B7CE23DC92BEF6582DE /* Double+Extension.swift in Sources */,
+				B7060860DC697A0F9D4A1C6FA57DAB55 /* HansonExtensionKit-dummy.m in Sources */,
+				134B71CAEAC14D1AD1189BBD88AAC0BC /* HansonExtensionKit.swift in Sources */,
+				D76DD636E0F67784B6E5ADF380748B2C /* Identifer+Extension.swift in Sources */,
+				D6BB731C25C8E958BA765F18A15B097F /* String+Extension.swift in Sources */,
+				0C00DAC438CEE38B5A2DAADCECB4E390 /* UIAlertAction+Extension.swift in Sources */,
+				61D71EC4946D76946C5D53F6F9329593 /* UIApplication+Extension.swift in Sources */,
+				BD9D728F3BB24F7E086D13C113A60724 /* UIButton+Extension.swift in Sources */,
+				C95282DBC23F22E33A2B68B69FC52FD7 /* UIColor+Extension.swift in Sources */,
+				692662AD093ADDD4A6DC9EC65CA1A9DD /* UIImage+Extension.swift in Sources */,
+				A604321CF2158A421D2FA52BC59F3523 /* UIImageView+RedDot.swift in Sources */,
+				8BD8FC63D6314BAC71C2D7AFCF6D4583 /* UITabBarController+RedDot.swift in Sources */,
+				CA0993E0DC3A60B9465578991E132293 /* UITableView+Extension.swift in Sources */,
+				D1302B8F638B651127BD207975A29201 /* UITextField+Extension.swift in Sources */,
+				3246BF86D48B4CFC9B2085EB899A0AA3 /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		92679EBC7BB4373A8B454034A8AAC8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HansonExtensionKit;
+			target = D642CA8E646716AB7635369E94008D12 /* HansonExtensionKit */;
+			targetProxy = B57E43C91F2D91D986DD525238A11B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		03C01134E39B0A862E8AAADF2730A69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5490ADED739D1D58213CB94255185D /* Pods-HansonExtensionKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HansonExtensionKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HansonExtensionKit_Example/Pods-HansonExtensionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HansonExtensionKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,9 +446,9 @@
 			};
 			name = Debug;
 		};
-		6A127CF20033E81F9EE426291843F375 /* Release */ = {
+		3B572A6613170C709A25AC59BB7EB342 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */;
+			baseConfigurationReference = 28E6C5F7E6FC9D8733520AF7D790070E /* Pods-HansonExtensionKit_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -338,25 +459,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HansonExtensionKit/HansonExtensionKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HansonExtensionKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HansonExtensionKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HansonExtensionKit/HansonExtensionKit.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = org.HansonStudio.HansonExtensionKit;
-				PRODUCT_NAME = HansonExtensionKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HansonExtensionKit_Example/Pods-HansonExtensionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HansonExtensionKit_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -413,9 +535,9 @@
 			};
 			name = Release;
 		};
-		9E7FE58754943E59B2D2993AA69F3CDC /* Debug */ = {
+		A556AFC377D87226AD0E60BD1BEE8121 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96C4B51D02D5FAF2C5AC7066F3033DE6 /* HansonExtensionKit.xcconfig */;
+			baseConfigurationReference = 3C099FC35C513AA4790BA559B83E8733 /* HansonExtensionKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -429,10 +551,9 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HansonExtensionKit/HansonExtensionKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HansonExtensionKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HansonExtensionKit/HansonExtensionKit.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = org.HansonStudio.HansonExtensionKit;
 				PRODUCT_NAME = HansonExtensionKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -444,6 +565,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		E8F42ED78E10289233D87068A46A845F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C099FC35C513AA4790BA559B83E8733 /* HansonExtensionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HansonExtensionKit/HansonExtensionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HansonExtensionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HansonExtensionKit/HansonExtensionKit.modulemap";
+				PRODUCT_NAME = HansonExtensionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -457,11 +610,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4E41D0BC4FC0E0AD95921D61F18472C /* Build configuration list for PBXNativeTarget "HansonExtensionKit" */ = {
+		32BEAE7FD0199CF268250DCAACFB66B4 /* Build configuration list for PBXNativeTarget "HansonExtensionKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E7FE58754943E59B2D2993AA69F3CDC /* Debug */,
-				6A127CF20033E81F9EE426291843F375 /* Release */,
+				A556AFC377D87226AD0E60BD1BEE8121 /* Debug */,
+				E8F42ED78E10289233D87068A46A845F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF4110E08D947834EFB9B62612A06AF /* Build configuration list for PBXNativeTarget "Pods-HansonExtensionKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B572A6613170C709A25AC59BB7EB342 /* Debug */,
+				03C01134E39B0A862E8AAADF2730A69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -18,8 +18,8 @@ d.hsExt.toNumberFormat(maxDecimal: 2)
 //let alert = UIAlertAction(title: "ceshi", style: UIAlertActionStyle.default, handler: nil)
 //alert.addAction(.cancel)
 
-let test = "hello world"
-test.hsExt.toMd5HexCode
-test.hsExt.MD5String()
+//let test = "hello world"
+//test.hsExt.toMd5HexCode
+//test.hsExt.MD5String()
 
 

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "container:HansonExtensionPlayground.playground">
+   </FileRef>
+   <FileRef
       location = "group:HansonExtensionKit.xcodeproj">
    </FileRef>
    <FileRef
