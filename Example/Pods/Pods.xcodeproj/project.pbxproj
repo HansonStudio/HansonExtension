@@ -22,7 +22,7 @@
 		B7060860DC697A0F9D4A1C6FA57DAB55 /* HansonExtensionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD51500087C96C31273AB3951601CEF4 /* HansonExtensionKit-dummy.m */; };
 		BD9D728F3BB24F7E086D13C113A60724 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */; };
 		BFDEFC7993B83A0304E10DF03E189DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C0592E42203FFCD400FE2D70 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0592E41203FFCD400FE2D70 /* String+MD5.swift */; };
+		C07A4228207B463100063671 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A4227207B463100063671 /* String+MD5.swift */; };
 		C95282DBC23F22E33A2B68B69FC52FD7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505441F1CA0214FC0A72952D51895AEA /* UIColor+Extension.swift */; };
 		CA0993E0DC3A60B9465578991E132293 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109D48275A3987D808874A5652167BA /* UITableView+Extension.swift */; };
 		D1302B8F638B651127BD207975A29201 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E271C135494B5BC1926DE12BC808E81 /* UITextField+Extension.swift */; };
@@ -73,7 +73,7 @@
 		98775C49733BA0076ECA735F96AE22B3 /* Pods-HansonExtensionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HansonExtensionKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		A2322E604864CB9E616C74FDE53BB639 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "HansonExtensionKit/Classes/UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		AEA9453C4A5AED9BAEF163B693AB249F /* Pods-HansonExtensionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HansonExtensionKit_Example.modulemap"; sourceTree = "<group>"; };
-		C0592E41203FFCD400FE2D70 /* String+MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		C07A4227207B463100063671 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "HansonExtensionKit/Classes/String+MD5.swift"; sourceTree = "<group>"; };
 		C400376A0E216D7A085541766396C39C /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "HansonExtensionKit/Classes/UIImage+Extension.swift"; sourceTree = "<group>"; };
 		C4C4BCED5556E7678475788FB7BBA4C0 /* Identifer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Identifer+Extension.swift"; path = "HansonExtensionKit/Classes/Identifer+Extension.swift"; sourceTree = "<group>"; };
 		C66AE468AC462D2135F72F18A5791344 /* UITabBarController+RedDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+RedDot.swift"; path = "HansonExtensionKit/Classes/UITabBarController+RedDot.swift"; sourceTree = "<group>"; };
@@ -153,13 +153,13 @@
 		6D864D981D0F53C6389DE01645FD9D37 /* HansonExtensionKit */ = {
 			isa = PBXGroup;
 			children = (
+				C07A4227207B463100063671 /* String+MD5.swift */,
 				06CA9920FC623320E55AD5AA46F20500 /* Date+Extension.swift */,
 				775919F67DE1A1372A21FF04049028C4 /* DateFormatter+Extension.swift */,
 				DC61E5275BDD05EDC622338658D2E1C0 /* Double+Extension.swift */,
 				831F5C91B0C7B38E2483FDA94D4D018B /* HansonExtensionKit.swift */,
 				C4C4BCED5556E7678475788FB7BBA4C0 /* Identifer+Extension.swift */,
 				3B8CF1505226306D731EE7BD1EB8E8D2 /* String+Extension.swift */,
-				C0592E41203FFCD400FE2D70 /* String+MD5.swift */,
 				E5333703C6F5CC1E6E8BB1109D040E30 /* UIAlertAction+Extension.swift */,
 				A2322E604864CB9E616C74FDE53BB639 /* UIApplication+Extension.swift */,
 				959ADE0B84674B7452107ED35C6ED94A /* UIButton+Extension.swift */,
@@ -290,7 +290,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -326,7 +326,7 @@
 				F4220BF64521B607797DC29F3F370DE9 /* Date+Extension.swift in Sources */,
 				87F7C60A97118EA6926FC720165412E9 /* DateFormatter+Extension.swift in Sources */,
 				D8309BF4C2993B7CE23DC92BEF6582DE /* Double+Extension.swift in Sources */,
-				C0592E42203FFCD400FE2D70 /* String+MD5.swift in Sources */,
+				C07A4228207B463100063671 /* String+MD5.swift in Sources */,
 				B7060860DC697A0F9D4A1C6FA57DAB55 /* HansonExtensionKit-dummy.m in Sources */,
 				134B71CAEAC14D1AD1189BBD88AAC0BC /* HansonExtensionKit.swift in Sources */,
 				D76DD636E0F67784B6E5ADF380748B2C /* Identifer+Extension.swift in Sources */,
@@ -404,6 +404,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -411,6 +412,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -498,6 +500,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -505,6 +508,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
