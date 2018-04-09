@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HansonExtensionKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A collection of common extension functions in Swift.'
   s.homepage         = 'https://github.com/HansonStudio/HansonExtension'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
